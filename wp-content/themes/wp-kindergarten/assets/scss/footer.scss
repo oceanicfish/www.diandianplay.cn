@@ -1,0 +1,92 @@
+/* ==========================================================================
+    Start Style Footer
+========================================================================== */
+#cshero-footer-top {
+  position: relative;
+  background-image: url(../images/bg-vector-lg.png);
+  &:before {
+    content: "";
+    display: block;
+    height: 13px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url(../images/border-footer.png) repeat-x center center;
+  }
+  .wg-title {
+    font-size: 36px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    &:before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 88px;
+      height: 2px;
+      content: "";
+    }
+  }
+}
+/* Widget Categories */
+.widget_categories ul li {
+  line-height: 36px;
+}
+/* End Widget Categories */
+footer.entry-meta {
+  font-size: 13px;
+  line-height: 1.846153846;
+  color: #757575;
+  margin: 0;
+  text-align: center;
+}
+/* Back To Top */
+.back_to_top {
+  color: #cdcdcd;
+  height: auto;
+  position: fixed;
+  bottom: -40px;
+  margin: 0;
+  z-index: 10000;
+  -webkit-transition: all 1s ease 1s;
+  -moz-transition: all 1s ease 1s;
+  -o-transition: all 1s ease 1s;
+  transition: all 1s ease 1s;
+  right: 25px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  @include border-radius(50%);
+  border: 2px solid #e8e8e8;
+  &.on {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    display:block;
+    bottom:10px;
+  }
+}
+#back_to_top span {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-decoration: none;
+  @include transition(all .2s ease 0s);
+  @include border-radius(50%);
+  background:rgba(0, 0, 0, 0.10);
+  display: block;
+  text-align: center;
+  color: #b0b0b0;
+  &:hover {
+    background:rgba(0, 0, 0, 0.60);
+    color:#fff;
+  }
+  i {
+    font-size: 15px;
+    @include transition(all .2s ease 0s);
+    line-height: 42px;
+  }
+} 
+/* End Back To Top */
+/* ==========================================================================
+    End Style Footer
+========================================================================== */

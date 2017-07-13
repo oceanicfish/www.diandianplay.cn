@@ -1,0 +1,53 @@
+/* ==========================================================================
+    Style Button
+========================================================================== */
+.btn, button, .button, input[type="submit"] {
+	line-height: 1;
+	display: inline-block;
+	outline: medium none;
+    text-decoration: none;
+	@include transition(all 300ms linear 0ms);
+	@extend .bg-effect-xs;
+	font-weight: 700;
+}
+.btn:hover, button:hover, .button:hover, input[type="submit"]:hover,.btn:focus, button:focus, .button:focus, input[type="submit"]:focus {
+	outline: medium none;
+    text-decoration: none;
+}
+/* Type Button */
+input[type="submit"], .btn-green {
+	border-color: #5a8d23;
+	background-color: #81b748;
+}
+.btn-purple {
+	border-color: #5c367c;
+	background-color: #765197;
+}
+.btn-crimson {
+	border-color: #b63371;
+	background-color: #d24c8c;
+}
+/* Button VC */
+.wpb_button_anone.right {
+	float: right
+}
+/* Button White */
+.btn.btn-white {
+	border-color: #fff;
+	color: #fff;
+	background-image: none;
+	&.btn-trans {
+		background-color: rgba(255,255,255,0.3);
+	}
+}
+.btn.btn-trans {
+	background-color: transparent;
+}
+/* Button Aize */
+.btn.btn-lg {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+/* ==========================================================================
+    End Style Button
+========================================================================== */

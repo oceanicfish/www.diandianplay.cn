@@ -1,0 +1,968 @@
+/*------------------------------------------------------------------
+[All Style Shortcode]
+
+  1. Shortcode Fancy Box
+  2. Shortcode Pie Chart
+  3. Shortcode Team
+  4. Shortcode Testimonial
+  5. Tab
+  6. Counter
+  7. Accordion
+  8. Progress
+  9. Pricing
+  10. Blog
+  11. Images Carousel
+
+-------------------------------------------------------------------*/
+/*  Owl bullet
+--------------------------------*/
+/* Styling Pagination*/
+.owl-theme .owl-controls {
+  .owl-prev, .owl-next {
+    display: inline-block;
+    margin: 30px 3px 0 3px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    background-color: #eee;
+    color: $primary_color;
+    font-size: 22px;
+    i {
+      line-height: 40px;
+    }
+    @include transition(all 300ms linear 0ms);
+    &:hover {
+      background-color: $primary_color;
+      color: #fff;
+    }
+    i:before {
+      content: "\e684";
+      font-family: 'Pe-icon-7-stroke';
+      font-size: 36px;
+    }
+  }
+  .owl-prev {
+    i:before {
+      content: "\e686";
+    }
+  }
+  .owl-dots {
+    margin-top: 30px;
+  }
+  .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */  
+
+    span {
+      display: block;
+      width: 9px;
+      height: 9px;
+      margin: 5px 7px;
+      @include opacity(0.5);
+      @include border-radius(50%);
+      background: #666;
+    }
+
+    &.active span {
+      @include opacity(1);
+      background: #fff;
+    }
+  }
+  &.clickable .owl-dot:hover span {
+    @include opacity(1);
+    background: #fff;
+  }
+}
+/* ==========================================================================
+   [Start] 1. Shortcode Fancy Box
+========================================================================== */
+/*
+----> Fancy Layout 1 Default
+*/
+.cms-fancybox-layout-default {
+  .cms-fancy-box-content-icon i, .cms-fancy-box-image span {
+    display: inline-block;
+    text-align: center;
+    background-color: #da5192;
+    @include border-radius (100%);
+    color: #fff;
+    font-size: 63px;
+    height: 130px;
+    line-height: 130px;
+    width: 130px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.18);
+    @extend .bg-effect-xs;
+  }
+  .cms-fancy-box-image span {
+    line-height: 100px;
+    img {
+      max-width: 100px;
+    }
+  }
+  .cms-fancy-box-title {
+    margin: 20px 0;
+  }
+}
+/*
+----> End Fancy Layout Default
+*/
+/*
+----> Fancy Layout 1 
+*/
+.cms-fancybox-layout-1 {
+  .cms-fancy-box-image {
+    position: relative; 
+    img {
+      width: 100%;
+    }
+    .cms-fancy-box-meta {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 70px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.7);
+      color: #fff;
+      padding-top: 8px;
+      span {
+        display: inline-block;
+        text-align: center;
+        height: 70px;
+        width: 49%;
+        font-weight: 700;
+      }
+    }
+  }
+  .cms-fancy-box-main {
+    padding: 12px 18px  ;
+    color: #fff;
+    font-size: 16px;
+    .cms-fancy-box-title {
+      color: #fff;
+      margin: 0 0 5px;
+    }
+    h2.cms-fancy-box-title {
+      font-size: 42px;
+    }
+    .cms-fancy-box-readmore {
+      text-align: center;
+    }
+    .btn {
+      padding: 10px 35px;
+    }
+  }
+}
+/*
+----> End Fancy Layout 1 
+*/
+/*
+----> Fancy Layout 2
+*/
+.cms-fancybox-layout-2 {
+  .cms-fancy-box-content-icon {
+    float: left;
+    i {
+      text-align: center;
+      background-color: #da5192;
+      @include border-radius (100%);
+      color: #fff;
+      font-size: 46px;
+      height: 100px;
+      line-height: 100px;
+      width: 100px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgba(0,0,0,0.18);
+      @extend .bg-effect-xs;
+    }
+  }
+  .cms-fancy-box-boxright {
+    padding-left: 115px;
+    .cms-fancy-box-title {
+      margin: 0 0 15px;
+    }
+  }
+}
+/*
+----> End Fancy Layout 2
+*/
+/*
+----> Fancy Layout 3 
+*/
+.cms-fancybox-layout-3 {
+  .cms-fancy-box-content-icon, .cms-fancy-box-image {
+    margin-right: 18px;
+    i {
+      text-align: center;
+      background-color: #da5192;
+      @include border-radius (100%);
+      color: #fff;
+      font-size: 25px;
+      height: 55px;
+      line-height: 52px;
+      width: 55px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #bb2f72;
+      @extend .bg-effect-xs;
+    }
+  }
+  .cms-fancy-box-boxright {
+    .cms-fancy-box-title {
+      margin: 0;
+      line-height: 55px;
+    }
+    .cms-fancy-box-content {
+      margin-top: 12px;
+    }
+    h6.cms-fancy-box-title {
+      color: #9c9c9c;
+      font-family: Dosis;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+/*
+----> End Fancy Layout 3 
+*/
+/* ==========================================================================
+   [End] 1. Shortcode Fancy Box
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 2. Shortcode Pie Chart
+========================================================================== */
+.vc_pie_wrapper i {
+    position: absolute;
+}
+.vc_pie_chart .vc_pie_chart_back {
+    border-color: #ddd;
+    opacity: 1;
+}
+.vc_pie_wrapper,
+.vc_pie_chart_value,
+.vc_pie_wrapper canvas {
+    width: 260px !important;
+    height: 260px !important;
+    line-height: 260px !important;
+}
+/* ==========================================================================
+   [End] 2. Shortcode Pie Chart
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 3. Team
+========================================================================== */
+/*
+----> Start Team Layout 1 Grid
+*/
+.cms-team-layout1 {
+  text-align: center;
+  .cms-grid-title h2 {
+    font-size: 50px;
+    margin: 0 0 5px;
+    line-height: 55px;
+  }
+  .cms-grid-categories {
+    margin-bottom: 30px
+  }
+}
+/*
+----> End Team Layout 1 
+*/
+
+/*
+----> Start Carousel Team Layout 1 
+*/
+.cms-carousel-team-layout1 {
+  text-align: center;
+  .cms-carousel-title h2 {
+    font-size: 50px;
+    margin: 0 0 5px;
+    line-height: 55px;
+  }
+  .cms-carousel-categories {
+    margin-bottom: 30px
+  }
+}
+/*
+----> End Carousel Team Layout 1 
+*/
+/* ==========================================================================
+   [End] 3. Team
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 4. Testimonial
+========================================================================== */
+/*
+----> Start Testimonial Layout 1 
+*/
+.cms-testimonial-layout1 {
+  text-align: center;
+  .cms-testimonial-content {
+    position: relative;
+    .icon-left, .icon-right {
+      font-size: 118px;
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+    .icon-right {
+      left: inherit;
+      right: 0;
+    }
+  }
+  .cms-testimonial-title {
+    margin: 20px 0 0;
+  }
+  .cms-testimonial-rating {
+    span {
+      height: 15px;
+      width: 89px;
+      display: inline-block;
+      background: url(../images/rating-testimonial.png) no-repeat 0 0;
+      &.star4 {
+        width: 70px;
+      }
+      &.star3 {
+        width: 52px;
+      }
+      &.star2 {
+        width: 35px;
+      }
+      &.star1 {
+        width: 15px;
+      }
+    }
+  }
+}
+
+/*
+----> End Testimonial Layout 1 
+*/
+/* ==========================================================================
+   [End] 4. Testimonial
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 5. Tabs
+========================================================================== */
+.wpb_tabs .ui-tabs.wpb_tour_tabs_wrapper {
+  .wpb_tabs_nav {
+    text-align: center;
+    .ui-state-default {
+      float: none;
+      display: inline-block;
+      padding: 2px 0;
+      margin: 0 1px;
+       a {
+        font-size: 21px;
+        font-weight: 700;
+        background-color: #33b9d4;
+        @extend .bg-effect-sm;
+        color: #fff;
+        line-height: 50px;
+        padding: 0 30px;
+        margin: 0;
+        border: 2px solid #1a9eb9;
+        @include border-radius(4px);
+      }
+      &.ui-tabs-active {
+        a {
+          border-bottom-color: transparent;
+          position: relative;
+          span {
+            @extend .bg-effect-sm;
+            border-left: 2px solid #ba2b6f;
+            border-right: 2px solid #ba2b6f;
+            bottom: -6px;
+            content: "";
+            height: 8px;
+            left: -2px;
+            position: absolute;
+            width: -moz-calc(100% + 4px);
+            width: -webkit-calc(100% + 4px);
+            width: -o-calc(100% + 4px);
+            width: calc(100% + 4px);
+          }
+        }
+      }
+    }
+  }
+  .wpb_tab.ui-tabs-panel {
+    border: 2px solid #1a9eb9;
+    background-color: #33b9d4;
+    padding: 30px;
+    @extend .bg-effect-lg;
+    @include border-radius(4px);
+    img {
+      border-width: 2px;
+      border-style: solid;
+      @include border-radius(4px);
+    }
+  }
+}
+.wpb_tabs {
+  .wpb_tab {
+    h1, h2, h3, h4, h5, h6, p {
+      color: #fff;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 5. Tabs
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 6. Counter
+========================================================================== */
+.cms-counter-wraper {
+  .cms-counter-box {
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0f9fbc;
+    background-color: #34bfdb;
+    height: 133px;
+    width: 133px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    @extend .bg-effect-xs;
+    .cms-counter-middle {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      left: 0;
+      top: 50%;
+      @include transform(translate(0px, -50%));
+    }
+    .cms-counter {
+      font-size: 47px;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .cms-counter-title {
+      margin: 0;
+    }
+  }
+  &.cms-counter-layout-1 {
+    text-align: center;
+    .cms-counter-description {
+      margin-top: 16px;
+    }
+  }
+  &.cms-counter-layout-2 {
+    .cms-counter-box {
+      width: 86px;
+      height: 86px;
+      line-height: 1;
+      float: left;
+      .cms-counter-icon i {
+        font-size: 43px;
+      }
+    }
+    .cms-counter-right {
+      padding-left: 101px;
+      .cms-counter-title .cms-counter {
+        display: inline;
+        &:after {
+          content: "-";
+          padding-left: 6px;
+        }
+      }
+    }
+  }
+  &.cms-counter-layout-3 {
+    .cms-counter-box {
+      width: 94px;
+      height: 94px;
+      line-height: 1;
+      font-size: 57px;
+      float: left;
+      font-family: "Amatic SC";
+      -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+        -ms-border-radius: 0;
+         -o-border-radius: 0;
+            border-radius: 0;
+    }
+    .cms-counter-right {
+      padding-left: 110px;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 6. Counter
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 7. Accordion
+========================================================================== */
+.wpb_accordion.wpb_content_element {
+  .wpb_accordion_wrapper {
+    .wpb_accordion_section {
+      margin: 0 0 4px;
+    }
+    .wpb_accordion_header {
+      .ui-accordion-header-icon {
+        display: none;
+      }
+      @extend .bg-effect-lg;
+      line-height: 50px;
+      padding: 0;
+      margin: 0;
+      border: 2px solid #ba2b6f;
+      background-color: #db5896;
+      @include border-radius(4px);
+      &.ui-state-active {
+        @include border-radius(4px 4px 0 0);
+      }
+      a {
+        padding: 0 12px;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 700;
+        @include box-shadow(none);
+        i {
+          font-size: 18px;
+          padding-right: 12px;
+          padding-left: 2px;
+        }
+      }
+    }
+    .wpb_accordion_content {
+      padding: 20px 40px;
+      border-width: 0 2px 2px 2px;
+      border-style: solid;
+      border-color: #ba2b6f;
+      @include border-radius(0 0 4px 4px);
+    }
+    .wpb_accordion_section:nth-child(2) {
+      .wpb_accordion_header {
+        background-color: #35b6d0;
+        border-color: #1a9eb9;
+      }
+      .wpb_accordion_content {
+        border-color: #1a9eb9;
+      }
+    }
+    .wpb_accordion_section:nth-child(3) {
+      .wpb_accordion_header {
+        background-color: #86ba4e;
+        border-color: #5d9422;
+      }
+      .wpb_accordion_content {
+        border-color: #5d9422;
+      }
+    }
+    .wpb_accordion_section:nth-child(4) {
+      .wpb_accordion_header {
+        background-color: #dc6819;
+        border-color: #e24400;
+      }
+      .wpb_accordion_content {
+        border-color: #e24400;
+      }
+    }
+    .wpb_accordion_section:nth-child(5) {
+      .wpb_accordion_header {
+        background-color: #6f4a91;
+        border-color: #674289;
+      }
+      .wpb_accordion_content {
+        border-color: #674289;
+      }
+    }
+  }
+}
+.vc_tta-panels {
+  .vc_tta-panel-heading {
+    @extend .bg-effect-lg;
+    .vc_tta-panel-title {
+      font-size: 21px;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 7. Accordion
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 8. Progress
+========================================================================== */
+.cms-progress-layout-default {
+  padding-top: 40px;
+  .cms-progress-main {
+    &.bar-icon {
+      padding-left: 50px;
+      position: relative;
+    }
+    .cms-progress-icon {
+      position: absolute;
+      left: 0;
+      i {
+        color: #8f8f8f;
+        font-size: 34px;
+      }
+    }
+    .cms-progress {
+      overflow: visible;
+      background-color: #f8acd0;
+      border-color: #d94e90;
+      border-style: solid;
+      border-width: 2px;
+      height: 38px;
+      width: 100%;
+      position: relative;
+      margin: 0 0 10px;
+      @include box-shadow(none);
+      .cms-progress-title {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        z-index: 1;
+        @include transform(translate(0px, -50%));
+      }
+      @include border-radius(3px);
+      .progress-bar {
+        width: 20%;
+        overflow: visible;
+        @extend .bg-effect-lg;
+        @include box-shadow(none);
+        background-color: #d94e90;
+        line-height: 40px;
+        text-align: right;
+        padding: 0 15px;
+        span {
+          color: #fff;
+          font-size: 15px;
+          font-weight: 700;
+          position: absolute;
+          right: -44px;
+          top: -39px;
+          height: 29px;
+          line-height: 28px;
+          padding: 0 8px;
+          @include border-radius(4px);
+          &:before {
+            position: absolute;
+            height: 0;
+            width: 0;
+            content: "";
+            border-width: 5px;
+            border-style: solid;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}
+/* ==========================================================================
+   [End] 8. Progress
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 9. Pricing
+========================================================================== */
+.cms-pricing-wrapper {
+  position: relative;
+  background: rgba(252, 252, 253, 0.8);
+  padding: 55px 9px 25px;
+  &:before {
+    background-image: url("../images/pricing-curve.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    content: "";
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+  }
+  &:after {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    height: 83px;
+    width: 83px;
+    border: 1px solid #d7d7d7;
+    background-color: #f9f9f9;
+    @include border-radius(50px);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .cms-pricing-title {
+    h3 {
+      margin: 0 0 3px;
+      font-family: Dosis;
+    }
+    h3, .year {
+      font-size: 28px;
+      color: $primary_color;
+      font-weight: 700;
+      text-align: center;
+    }
+    .year {
+      display: block;
+      font-size: 15px;
+    }
+  }
+  .cms-pricing-content {
+    ul {
+      padding: 0;
+      list-style: none;
+      li {
+        border: 1px solid #d7d7d7;
+        background: rgba(252, 252, 253, 0.8);
+        padding: 10px 32px;
+        margin: 0 0 7px;
+        &:first-child {
+          margin-top: 10px;
+        }
+        &:last-child {
+          margin: 0 0 22px;
+        }
+        span {
+          display: inline-block;
+          line-height: normal;
+        }
+        span:nth-child(1) {
+          color: #4a4a4a;
+          font-size: 34px;
+        }
+        span:nth-child(2) {
+          color: #3bbcd6;
+          font-size: 54px;
+        }
+        span:nth-child(3) {
+          color: #949494;
+          font-size: 28px;
+        }
+        span:nth-child(4) {
+          color: #837879;
+          font-family: "Dosis";
+          float: right;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 68px;
+        }
+      }
+    }
+  }
+}
+.green {
+  .cms-pricing-wrapper {
+    &:after {
+      background-image: url("../images/pr-green.png");
+    }
+    .cms-pricing-content ul li span:nth-child(2) {
+      color: #82b849;
+    }
+  }
+}
+.blue {
+  .cms-pricing-wrapper {
+    &:after {
+      background-image: url("../images/pr-blue.png");
+    }
+  }
+}
+.crimson {
+  .cms-pricing-wrapper {
+    &:after {
+      background-image: url("../images/pr-crimson.png");
+    }
+    .cms-pricing-content ul li span:nth-child(2) {
+      color: #dc5e99;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 9. Pricing
+========================================================================== */
+
+/* ==========================================================================
+   [Start] 10. Blog
+========================================================================== */
+.cms-blog-layout1 {
+  .owl-stage-outer {
+    padding-top: 17px;
+  }
+  .cms-blog-header {
+    position: relative;
+    margin: 0 0 22px;
+    .entry-video iframe {
+      width: 100%;
+      height: 239px;
+    }
+    .cms-blog-date {
+      position: absolute;
+      top: -16px;
+      left: 30px;
+      height: 68px;
+      line-height: 68px;
+      width: 208px;
+      text-align: center;
+      font-size: 21px;
+      font-weight: 700;
+      z-index: 10;
+      i {
+        padding-right: 15px;
+      }
+      .arow-date, .arow-date:before {
+          border-style: solid;
+          border-width: 8px;
+          height: 0;
+          left: -16px;
+          position: absolute;
+          top: 0;
+          width: 0;
+      }
+      .arow-date:before {
+        content: "";
+        left: -8px;
+          position: absolute;
+          top: -8px;
+        border-color: transparent rgba(0,0,0,0.1) rgba(0,0,0,0.1) transparent;
+      }
+    }
+  }
+  .cms-blog-title h4 {
+    font-size: 24px;
+    color: $primary_color;
+    margin: 0 0 18px;
+  }
+  .cms-blog-readmore {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18px;
+  }
+  .cms-blog-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    @include transition(all 300ms linear 0ms);
+    a {
+      font-size: 51px;
+      font-weight: normal;
+      color: #fff;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.3);
+      height: 94px;
+      line-height: 79px;
+      width: 94px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      top: 50%;
+      @include border-radius(100%);
+      @include transform(translate(0px, -50%));
+      &:hover {
+        background-color: $primary_color;
+      }
+    }
+  }
+  .format-video .cms-blog-overlay,
+  .entry-gallery .carousel-control,
+  .entry-audio .cms-blog-overlay {
+      display: none;
+    }
+  .cms-grid-item:hover,
+  .cms-carousel-item:hover {
+    .cms-blog-overlay {
+      opacity: 1;
+    }
+  }
+}
+/* ==========================================================================
+   [End] 10. Blog
+========================================================================== */
+
+/* Maps */
+body .wpb_gmaps_widget .wpb_wrapper {
+  padding: 0;
+}
+
+/* ==========================================================================
+   [Start] 11. Images Carousel
+========================================================================== */
+.wpb_images_carousel {
+  .vc_images_carousel {
+    overflow: hidden;
+    width: 100% !important;
+    .vc_item img {
+      width: 100%;
+    }
+  }
+  .vc_slide {
+    .vc_carousel-control {
+      background-color: #87bb50;
+      border-radius: 100%;
+      display: block;
+      height: 74px;
+      opacity: 1;
+      width: 74px;
+      line-height: 74px;
+      margin: 0;
+      top: 50%;
+      @include transform(translate(0px, -50%));
+      color: #fff;
+      text-shadow: none;
+      @include text-shadow(none);
+      font-size: 22px;
+      span {
+        display: none;
+      }
+      &.vc_left {
+        left: -37px;
+        &:before {
+          content: "\f053";
+          font-family: FontAwesome;
+          position: absolute;
+          right: 15px;
+        }
+      }
+      &.vc_right {
+        right: -37px;
+        &:before {
+          content: "\f054";
+          font-family: FontAwesome;
+          position: absolute;
+          left: 15px;
+        }
+      }
+    }
+  }
+}
+/* ==========================================================================
+   [End] 11. Images Carousel
+========================================================================== */
+/*------------------------------------------------------------------
+[End Style Shortcode]
+
+-------------------------------------------------------------------*/

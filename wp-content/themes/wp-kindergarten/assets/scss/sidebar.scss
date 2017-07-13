@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------
+[All Style Sidebar Widget]
+
+-------------------------------------------------------------------*/
+#secondary {
+	.wg-title {
+		font-size: 24px;
+		font-weight: 700;
+		padding-bottom: 17px;
+	    position: relative;
+	    margin-bottom: 30px;
+		&:before {
+			position: absolute;
+			height: 4px;
+			width: 70px;
+			bottom: 0;
+			left: 0;
+			content: "";
+		}
+	}
+	> [class*="widget_"], > [class*="widget-"] {
+		border-bottom: 7px solid #ebebeb;
+		padding-bottom: 30px;
+		margin-bottom: 80px;
+	}
+	.widget_archive, .widget_categories, .widget_pages, .widget_meta, .widget_recent_entries {
+		ul li {
+			line-height: 32px;
+			a:hover {
+				color: #9c9c9c;
+			}
+			ul.children {
+				margin-left: 14px;
+			}
+		}
+	}
+	.widget_recent_comments {
+		ul li {
+			line-height: 32px;
+			.comment-author-link {
+				display: block;
+			}
+		}
+	}
+	.widget_text select {
+		width: 100%;
+	}
+    .widget_nav_menu {
+        ul.sub-menu {
+            margin-left: 14px;
+        }
+    }
+}

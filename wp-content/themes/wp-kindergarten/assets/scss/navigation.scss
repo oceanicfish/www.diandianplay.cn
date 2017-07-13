@@ -1,0 +1,358 @@
+/* ==========================================================================
+    Style Main Menu
+========================================================================== */
+#cshero-header-navigation {
+  position: static;
+  .main-navigation {
+    ul.ping-right {
+      left: auto;
+      right: 100%;
+    }
+    ul.ping-left {
+      left: 100%;
+      right: auto;
+    }
+  }
+}
+/*
+-----> Minimum width of 992 pixels.
+*/
+
+@media screen and (min-width: 992px) {
+  #menu-mobile, .cs-menu-toggle {
+    display: none;
+  }
+  #cshero-header-navigation.collapse {
+    display: block;
+  }
+  #cshero-header-navigation .main-navigation {
+    div.nav-menu > ul {
+      display: inline-block !important;
+      width: 100%;
+    }
+    ul {
+      margin: 0;
+      text-indent: 0;
+    }
+    li a {
+      border-bottom: 0;
+      white-space: nowrap;
+      @include transition(all 300ms linear 0ms);
+    }
+    .menu-main-menu {
+      > li {
+        vertical-align: top;
+        @include transition(all 420ms linear 0ms);
+        > a {
+          position: relative;
+          text-align: center;
+          line-height: 1.1;
+          @include transition(all 420ms linear 0ms);
+          i {
+            display: block;
+            width: 100%;
+            line-height: 0;
+            margin-bottom: 6px;
+            @include transition(all 420ms linear 0ms);
+            + .menu-title {
+              @include transform(translateY(25px));
+              display: block;
+            }
+          }
+        }
+        &:last-child {
+          > a {
+            padding-right: 0;
+          }
+        }
+        &.menu-item-has-children {
+          position: relative;
+          > .cs-menu-toggle {
+            bottom: 10%;
+            display: inline-block;
+            left: 50%;
+            position: absolute;
+            line-height: 1;
+            transform: translate(-50%, 0px);
+            @include transform(translate(-50%, 0px));
+            @include transition(all 300ms linear 0ms);
+            font-size: 24px;
+            opacity: 0;
+          }
+          > ul.sub-menu {
+            margin-top: 24px;
+            @include transition(margin-top 0.4s ease 0s);
+          }
+          &:hover {
+            > ul.sub-menu {
+               @include box-shadow(0 3px 5px rgba(0, 0, 0, 0.15));
+               margin-top: 0;
+            }
+            > .cs-menu-toggle {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      > li, > li a, > ul > li, > ul > li > a {
+        display: inline-block;
+        text-decoration: none;
+      }
+      > li ul li, > li ul li a, > ul > li ul li, > ul > li ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: left;
+      }
+      > li ul ul, > ul > li ul ul {
+        width: 200px;
+      }
+    }
+  }
+  #cshero-header-navigation .main-navigation li li {
+    margin: 0;
+  }
+  #cshero-header-navigation .main-navigation li ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    height: 1px;
+    width: 200px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+    /* Menu Stick Wall */
+    #cshero-header-navigation .main-navigation li ul ul {
+      top: 0;
+      left: 100%;
+      width: 200px;
+      &.back {
+        right: 100%;
+        left: auto;
+        ul:not(.back) {
+          right: 100%;
+          left: auto;
+        }
+        ul.back {
+          left: 100%;
+          right: auto;
+          ul:not(.back) {
+            left: 100%;
+            right: auto;
+          }
+          ul.back {
+            right: 100%;
+            left: auto;
+          }
+        }
+      }
+    }
+    /* End Menu Stick Wall */
+  #cshero-header-navigation .main-navigation {
+    ul li:hover > ul, ul li:focus > ul, .focus > ul {
+      border-left: 0;
+      clip: inherit;
+      overflow: inherit;
+      height: inherit;
+    }
+    li ul li {
+      a {
+        padding: 8px 18px;
+        line-height: 1.8em;
+        white-space: normal;
+      }
+      &:last-child a {
+        border-bottom: none;
+      }
+    }
+  }
+  /* End Menu Sub Level */
+
+  /* Start Mega Menu */
+  #cshero-header-navigation .main-navigation {
+    .columns2 > li:nth-of-type(2n+1),
+    .columns3 > li:nth-child(3n+1),
+    .columns4 > li:nth-child(4n+1),
+    .columns5 > li:nth-child(5n+1) {
+      clear:left;
+      border-right:0px solid transparent;
+    }
+    .columns5 > li{
+      width:20% !important;
+    }
+    .columns4 > li{
+      width:25% !important;
+    }
+    .columns3 > li{
+      width:33% !important;
+    }
+    .columns2 > li{
+      width:50% !important;
+    }
+    [class*="columns"]  > li {
+      float: left;
+      > a {
+        width: 100%;
+      }
+    }
+    .menu-main-menu li.has_full_width {
+      position: inherit;
+    }
+    .menu-main-menu li:not(.group) > ul.drop_full_width.sub-menu {
+        left: 0 !important;
+        width: 100% !important;
+        background: #fff;
+    }
+    li.group > ul.sub-menu {
+      display: block;
+      float: left;
+      left: 0;
+      position: relative;
+      width: 100%;
+      height: inherit;
+    }
+  }
+  #cshero-header.header-fixed #cshero-header-navigation .main-navigation .menu-main-menu > li > a i + .menu-title {
+    @include transform(translateY(14px));
+  }
+  #cshero-header.header-fixed #cshero-header-navigation .main-navigation .menu-main-menu > li > a i {
+    margin-bottom: 3px;
+  }
+  /* End Start Mega Menu */
+  #cshero-header.header-fixed #cshero-header-navigation .main-navigation .menu-main-menu > li.menu-item-has-children > .cs-menu-toggle {
+    display: none;
+  }
+}
+
+/*
+-----> Minimum width of 992 pixels.
+*/
+
+/*
+-----> Max width of 992 pixels.
+*/
+@media screen and (max-width: 992px) {
+  #cshero-header-navigation.collapse {
+    background: #222;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+  }
+  #cshero-menu-mobile {
+    display: block;
+    i {
+      background: $primary_color;
+      color: #fff;
+      cursor: pointer;
+      font-size: 32px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      width: 45px;
+      &:hover {
+        background: #333;
+      }
+    }
+  }
+  #cshero-header-navigation .main-navigation div.nav-menu > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms ease;
+    li {
+      list-style: none;
+      a {
+        display: block;
+        color: #5e5e5e;
+        &:hover, &:focus {
+          color: #21759b;
+        }
+      }
+    }
+  }
+  .collapse .main-navigation div.nav-menu > ul {
+    display: block;
+    max-height: 2000px;
+  }
+  #cshero-header #cshero-header-navigation .main-navigation {
+    padding: 15px 0;
+    .menu-main-menu {
+      > li > a i {
+        display: none;
+      }
+      li {
+        line-height: 31px;
+        a {
+          background: transparent;
+          color: #fff;
+        }
+      }
+    }
+    ul.sub-menu {
+      width: 100% !important;
+    }
+  }
+  /* Dropdown Sub Menu */
+  .cs-menu-toggle {
+    display: block;
+  }
+  #cshero-header-navigation .main-navigation .menu-main-menu > li {
+    position: relative;
+    li {
+      position: relative;
+    }
+    a {
+      display: block;
+      border-bottom: none;
+      font-size: 17px;
+      color: #999 !important;
+      margin: 0 0 4px;
+      &:hover {
+        color: #fff !important;
+      }
+    }
+    ul li a {
+      font-size: 16px;
+    }
+    .cs-menu-toggle {
+      color: #999;
+      cursor: pointer;
+      position: absolute;
+      right: -5px;
+      text-align: center;
+      top: 0;
+      width: 30px;
+      &:hover {
+        color: #fff;
+      }
+    }
+    ul.sub-menu {
+      max-height: 0;
+      overflow: hidden;
+      padding-left: 10px;
+      @include transition(max-height 600ms linear 0ms);
+      &.submenu-open {
+        max-height: 1000px;
+        + .cs-menu-toggle i {
+          &:before {
+            content: "\f106";
+          }
+        }
+      }
+      .cs-menu-toggle {
+        right: 12px;
+      }
+    }
+  }
+}
+/*
+-----> End Max width of 992 pixels.
+*/
+
+
+/* ==========================================================================
+  End Style Main Menu
+========================================================================== */

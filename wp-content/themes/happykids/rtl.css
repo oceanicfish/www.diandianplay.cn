@@ -1,0 +1,2526 @@
+/* 
+##############################################################
+HappyKids RTL stylesheet                                     
+##############################################################
+*/
+/* - CSS Reset -> Begin ----------------------------------------- */
+
+.testimonial {
+    padding-left: 45px;
+	padding-right: 15px;
+}
+
+blockquote:before,
+blockquote:after,
+.slogan>.widget_text:before,
+.slogan>.widget_text:after,
+.testimonial p:before,
+.testimonial p:after {
+    right: 14px;
+	left: auto;
+}
+
+.testimonial p:after {
+    margin-right: 4px;
+	margin-left: auto;
+}
+
+blockquote:after,
+.slogan>.widget_text:after,
+.testimonial p:after {
+    left: 11px;
+    right: auto;
+}
+
+.testimonial img {
+    margin-left: 15px;
+    float: right;
+	margin-right: auto;
+}
+
+.testimonial .author {
+    text-align: left;
+}
+
+.slogan:after {
+    right: 10%;
+    left: 10%;
+}
+
+caption, th, td {
+    text-align: right;
+}
+
+/* - CSS Reset -> End ----------------------------------------- */
+
+/* 
+##############################################################
+BASE -> Begin
+##############################################################
+
+*/
+
+li>ul {
+    margin-right: 20px;
+	margin-left: auto;
+}
+
+ul li:before {
+    margin-left: 7px;
+	margin-right: auto;
+}
+
+/* 
+##############################################################
+BASE -> End
+##############################################################
+*/
+
+/* 
+##############################################################
+GENERAL -> Begin
+##############################################################
+*/
+
+.icon {
+    padding: 0 0 0 10px;
+}
+
+/* GRID */
+
+div[class*="grid-col-"] {
+    float:right;
+}
+
+div[class*="grid-col-"] + div[class*="grid-col-"] {
+    margin-right:2.5%;
+	margin-left: auto;
+}
+
+/* 
+##############################################################
+LAYOUT -> Begin                                        
+##############################################################
+*/
+
+.l-page-width {
+    text-align: right;
+}
+
+.l-float-right {
+    float: left;
+}
+
+.l-float-left {
+    float: right;
+}
+
+.last {
+    margin-left:0 !important;
+	margin-right: auto;
+}
+
+/* -- Minigallery --> Begin -- */
+
+.post-meta {
+    right: 0;
+	left: auto;
+}
+
+/* 
+##############################################################
+MODULES -> Begin                                        
+##############################################################
+*/
+
+.bg-level-1 {
+    right: 0;
+    left: 0;
+}
+
+.bg-level-1-left {
+    background-position: right top;
+}
+
+.bg-level-2 {
+    right: 0;
+	left: auto;
+}
+
+.bg-level-2.first-part {
+    background-position: left top;
+}
+
+.bg-level-2.second-part {
+    background-position: right top;
+    right: auto;
+    left: 0;
+}
+
+.t-pattern-5 .bg-level-2.second-part {
+    background-position: left top;
+}
+
+/*
+== TOP PANEL - Begin ==============================================================================
+*/
+
+/* - Menu -> End - */
+
+#kids_header .kids_social {
+    float: left;
+}
+
+#kids_header .kids_social li.search+li {
+    margin-left: -1px;
+	margin-right: auto;
+}
+
+#kids_header .kids_social li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+#kids_header .kids_social>li>span {
+    right: 0;
+    left: 0;
+}
+
+#kids_header .kids_social .openbtn a:before,
+#kids_header .kids_social .openbtn a:after {
+    left: 9px;
+    right: 9px;
+}
+
+#kids_header .kids_social .openbtn a:after {
+    left: calc(50% - 1px);
+    border-left: 2px solid #fff;
+	right: auto;
+	border-right: none;
+}
+
+.kids_social .lang_bar>div>ul a,
+#kids_header .kids_social .lang_bar>div>ul a {
+    text-align: right;
+}
+
+.kids_social .lang_bar>div a.lang_sel_sel>span {
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.kids_social .lang_bar>div>ul a>img {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.kids_social .lang_bar>div>ul a:before,
+.kids_social .lang_bar>div>ul a:after {
+    right: 0;
+    left: 0;
+}
+
+.kids_social .lang_bar>div.lang_sel_list_horizontal>ul>li {
+    float: right !important;
+    margin-right: 1px !important;
+	margin-left: auto;
+}
+
+.kids_social .lang_bar>div.lang_sel_list_horizontal>ul>li:first-child {
+    margin-right: 0px !important;
+	margin-left: auto;
+}
+
+.kids_social .lang_bar>div.lang_sel_list_horizontal a.lang_sel_sel>div {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.kids_social .lang_bar>div>ul ul {
+    right: -1px;
+    left: -1px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+/*
+== MAIN MENU - Begin ==============================================================================
+*/
+/* Sub Menu */
+
+#kids_main_nav ul ul li:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#kids_main_nav ul ul li:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#kids_main_nav ul ul li.menu-item-has-children>a:before {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+#kids_main_nav ul ul li.menu-item-has-children:after {
+    left: -2px;
+	right: auto;
+}
+
+#kids_main_nav ul ul:after {
+    right: 0;
+    left: 0;
+}
+
+#kids_main_nav ul ul ul {
+    right: 1px !important;
+	left: auto;
+}
+
+.ie8 #kids_main_nav ul ul ul {
+    right: 100% !important;
+	left: auto;
+}
+
+#kids_main_nav ul ul {
+    right:0 !important;
+    text-align:right;
+    margin-right: 0;
+	left: auto;
+	margin-left: auto;
+}
+
+#kids_main_nav ul ul ul {
+    right: 100% !important;
+    margin-right: 1px;
+	left: auto;
+	margin-left: auto;
+}
+
+/*
+== MAIN MENU - END ==============================================================================
+*/
+/*
+== SLIDER - Begin ==============================================================================
+*/
+
+body.secondary-page .kids_top_content_middle.page_custom_slider .bottom-border,
+body.home .kids_top_content_middle.homepage .bottom-border {
+    right: 0;
+    left: 0;
+}
+
+.kids_slider_wrapper:after {
+    left: 0;
+    right: 0;
+}
+
+/* -- Nivo slider --> Begin */
+
+.nivo-directionNav {
+    right:0;
+	left: auto;
+}
+
+.nivo-controlNavWrapper {
+    right:0;
+	left: auto;
+}
+
+.camerapag_right {
+    padding-right:16px;
+    background-position:right bottom;
+	padding-left: 0;
+}
+
+.camerapag_left {
+    background-position:left bottom;
+    padding-left:16px;
+	padding-right: 0;
+}
+
+.camera_pag {
+    background-position: right bottom;
+}
+
+.camera_pag_ul li {
+    float:right;
+    margin-right:4px !important;
+	margin-left: auto;
+}
+
+.camera_pag_ul li:first-child {
+    margin-right:0 !important;
+	margin-left: auto;
+}
+
+/* -- Nivo slider --> End */
+/* -- Anything slider --> Begin */
+
+/* -- Anything slider --> End */
+/* -- Lof slider --> Begin */
+
+.lof-next {
+    left:0;
+	right: auto;
+}
+
+.lof-previous {
+    right:0;
+	left: auto;
+}
+
+/* -- Lof slider --> End */
+
+/*
+== SLIDER - End ==============================================================================
+*/
+
+/*
+== VIDEO - Begin ==============================================================================
+*/
+
+.video-js-box .vjs-controls {
+    right: 0;
+    left: 0;
+}
+
+.video-js-box .vjs-controls > div {
+    background: #1F3744 -webkit-gradient(linear, right top, right bottom, from(#0B151A), to(#1F3744)) right 12px;
+    background: #1F3744 -moz-linear-gradient(top,  #0B151A,  #1F3744) right 12px;
+}
+
+.vjs-controls > div.vjs-play-control {
+    right: 5px;
+	left: auto;
+}
+
+.vjs-controls > div.vjs-progress-control {
+    right: 35px;
+    left: 165px;
+}
+
+/* Using right & left so it expands with the width of the video */
+.vjs-controls > div.vjs-time-control {
+    left: 90px;
+	right: auto;
+}
+
+/* Time control and progress bar are combined to look like one */
+.vjs-controls > div.vjs-volume-control {
+    left: 35px;
+	right: auto;
+}
+
+.vjs-controls > div.vjs-fullscreen-control {
+    left: 5px;
+	right: auto;
+}
+
+/* Removing curved corners on progress control and time control to join them. */
+.vjs-controls > div.vjs-progress-control {
+    border-top-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+}
+
+.vjs-controls > div.vjs-time-control {
+    border-top-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+}
+
+/* Play/Pause
+-------------------------------------------------------------------------------- */
+
+/* Play Icon */
+
+.vjs-paused .vjs-play-control span {
+    margin: 8px 8px 0 0;
+    border-right: 10px solid #fff;
+	border-left: none;
+}
+
+.vjs-playing .vjs-play-control span {
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+}
+
+/* Progress
+-------------------------------------------------------------------------------- */
+.vjs-progress-holder {
+    margin: 7px 5px 0 1px;
+}
+
+.vjs-play-progress {
+    background: -webkit-gradient(linear, right top, right bottom, from(#fff), to(#777));
+}
+
+.vjs-load-progress {
+    background: -webkit-gradient(linear, right top, right bottom, from(#555), to(#aaa));
+}
+
+/* Time Display
+-------------------------------------------------------------------------------- */
+
+/* Volume
+-------------------------------------------------------------------------------- */
+
+/* Drawing the volume icon using 6 span elements */
+.vjs-volume-control div span {
+    float: right;
+    margin: 0 0 0 2px;
+}
+
+/* Creating differnt bar heights through height (transparent) and bottom border (visible). */
+
+.vjs-volume-control div span:nth-child(6) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+/* Fullscreen
+-------------------------------------------------------------------------------- */
+
+.vjs-fullscreen-control div {
+    text-align: right;
+    margin: 5px 5px 0 0;
+}
+
+/* Drawing the fullscreen icon using 4 span elements */
+.vjs-fullscreen-control div span {
+    float: right;
+    text-align: right;
+}
+
+.vjs-fullscreen-control div span:nth-child(1) {
+    margin-left: 3px;
+    border-left: 6px solid rgba(0,0,0,0);
+	margin-right: auto;
+	border-right: none;
+}
+
+.vjs-fullscreen-control div span:nth-child(2) {
+    border-right: 6px solid rgba(0,0,0,0);
+	border-left: none;
+}
+
+.vjs-fullscreen-control div span:nth-child(3) {
+    margin: 0 0 0 3px;
+    border-left: 6px solid rgba(0,0,0,0);
+	border-right: none;
+}
+
+.vjs-fullscreen-control div span:nth-child(4) {
+    border-right: 6px solid rgba(0,0,0,0);
+	border-left: none;
+}
+
+/* Icon when video is in fullscreen mode */
+.vjs-fullscreen .vjs-fullscreen-control div span:nth-child(1) {
+    border-right: 6px solid rgba(0,0,0,0);
+	border-left: none;
+}
+
+.vjs-fullscreen .vjs-fullscreen-control div span:nth-child(2) {
+    border-left: 6px solid rgba(0,0,0,0);
+	border-right: none;
+}
+
+.vjs-fullscreen .vjs-fullscreen-control div span:nth-child(3) {
+    border-right: 6px solid rgba(0,0,0,0);
+	border-left: none;
+}
+
+.vjs-fullscreen .vjs-fullscreen-control div span:nth-child(4) {
+    border-left: 6px solid rgba(0,0,0,0);
+	border-right: none;
+}
+
+/* Download Links - Used for browsers that don't support any video.
+---------------------------------------------------------*/
+
+/* Big Play Button (at start)
+---------------------------------------------------------*/
+div.vjs-big-play-button {
+    right: 50%;
+    margin: -43px -43px 0 0;
+    background: #1F3744 -webkit-gradient(linear, right top, right bottom, from(#0B151A), to(#1F3744)) right 40px;
+    background: #1F3744 -moz-linear-gradient(top,  #0B151A,  #1F3744) right 40px;
+	left: auto;
+}
+
+div.vjs-big-play-button span {
+    margin: 20px 23px 0 0;
+    border-right: 40px solid #fff;
+	border-left: none;
+}
+
+/* Spinner Styles
+---------------------------------------------------------*/
+.vjs-spinner {
+    right: 50%;
+    margin: -50px -50px 0 0;
+	left: auto;
+}
+
+/* Spinner circles */
+.vjs-spinner div {
+    right: 40px;
+	left: auto;
+}
+
+/* Each circle */
+
+/*
+== VIDEO - End ==============================================================================
+*/
+/* -- Image wrapper --> Begin -- */
+
+.kids_curtain {
+    left: 0;
+    right: 0;
+}
+
+.kids_mini_picture .kids_curtain {
+    right: 0;
+	left: auto;
+}
+
+/* fix for smooth font on sale span */
+
+.kids_bottom_content .content_bottom_bg {
+    right: 0;
+    left: 0;
+}
+
+.kids_bottom_content_container .kids_post_content {
+    text-align: right;
+}
+
+#breadcrumbs li:first-child {
+    padding-right:0;
+	padding-left: 0;
+}
+
+#breadcrumbs .delimiter:before {
+    left: 0;
+    right: 0;
+}
+
+/* -- jCarousel --> Begin */
+
+.recent_projects ul li {
+    margin: 0 0 0 20px;
+}
+
+.jcarousel-prev,
+		.jcarousel-next {
+    float:right;
+}
+
+.jcarousel-next {
+    margin-right:5px;
+	margin-left: auto;
+}
+
+.carousel-nav {
+    float:right;
+    margin-right:10px;
+	margin-left: auto;
+}
+
+/* -- jCarousel --> End */
+/* -- Bottom content --> End -- */
+/* -- Gallery --> Begin -- */
+
+/* Isotope */
+
+.isotope .isotope-item {
+    -ms-transition-property:		 top, right, opacity;
+    -o-transition-property:		 top, right, opacity;
+}
+
+.gl_cat ul > li a,
+.nav_cat ul > li a {
+    padding: 6px 10px 6px 0;
+}
+
+.gl_cat > ul li ul,
+.nav_cat > ul li ul {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.gl_cat ul li ul li a, 
+.nav_cat ul li ul li a {
+    padding: 8px 10px 8px 0;
+}
+
+#filter {
+    left: 14px;
+	right: auto;
+}
+
+.splitter li {
+    float: right;
+    margin: 1px 2px 0 3px;
+}
+
+.kids-footer-copylefts>.dark-mask {
+    right: 0;
+    left: 0;
+}
+
+.kids-footer-copylefts .wrapper .kids_social {
+    float: left;
+}
+
+.kids-footer-copylefts .kids_social li {
+    float: right;
+    padding-right: 1em;
+	padding-left: 0;
+}
+
+/* footer lang bar */
+.kids-footer-copylefts .kids_social .lang_bar li {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.kids-footer-copylefts .kids_social #lang_sel>ul {
+    margin-right: -8px;
+	margin-left: auto;
+}
+
+/* -- Footer layout --> End -- */
+
+/* -- Widget Recent Entries, Archives, Twitter --> Begin -- */
+
+.widget_wrapper {
+    margin-right: -30px;
+	margin-left: auto;
+}
+
+.widget_wrapper .widget {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+.widget_recent_entries ul li,
+.widget_archive ul li,
+.widget_pages ul li,
+.widget_nav_menu ul li,
+.widget_categories ul li,
+.widget_recent_comments ul li,
+.widget_meta ul li,
+.widget.woocommerce.widget_product_categories li, 
+.widget.woocommerce.widget_layered_nav li {
+    padding: 0.43em 2.14em 0.43em 0.714em;
+}
+
+.widget_recent_entries ul li:before,
+.widget_archive ul li:before,
+.widget_pages ul li:before,
+.widget_recent_comments ul li:before,
+.widget_meta>ul>li:before,
+.widget.woocommerce.widget_product_categories li:before, 
+.widget.woocommerce.widget_layered_nav li:before {
+    right: 0;
+	left: auto;
+}
+
+.footer  .widget_recent_entries ul li:before,
+.footer  .widget_archive ul li:before,
+.footer .widget_pages ul li:before,
+.footer .widget_recent_comments ul li:before,
+.footer .widget_meta ul li:before,
+.top-panel  .widget_recent_entries ul li:before,
+.top-panel  .widget_archive ul li:before,
+.top-panel .widget_pages ul li:before,
+.top-panel .widget_recent_comments ul li:before,
+.top-panel .widget_meta ul li:before,
+.top-panel .widget.woocommerce.widget_product_categories li:before, 
+.top-panel .widget.woocommerce.widget_layered_nav li:before,
+.footer .widget.woocommerce.widget_product_categories li:before, 
+.footer .widget.woocommerce.widget_layered_nav li:before,
+.footer .widget_recent_comments ul li.recentcomments:before,
+.top-panel .widget_recent_comments ul li.recentcomments:before {
+    right: 0;
+	left: auto;
+}
+
+/* -- Widget Recent Entries, Archives, Twitter --> End -- */
+
+
+/* -- Widget --> End -- */
+
+/* -- Bottom container --> End -- */
+
+/* -- Posts container --> Begin -- */
+
+.kids_top_content .kids_post_block .kids_post_content {
+    text-align: right;
+}
+
+/* -- Posts container --> End -- */
+/* -- Posts container --> Begin -- */
+
+.kids_posts_container .widget_wrapper>div {
+    border-right: 1px solid;
+	border-left: none;
+}
+
+.kids_posts_container .widget_wrapper {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.widget_cws_benefits .widget-icon {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+aside .widget_cws_benefits .widget-icon {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.widget_cws_benefits .widget-title {
+    text-align: right;
+}
+
+.widget_cws_benefits .cws-widget-content .text_part {
+    text-align: right;
+}
+
+.kids_ads_box .kids_post_block .kids_post_content {
+    text-align: right;
+}
+
+
+/* -- Posts container --> End -- */
+
+/* -- Back to top button --> Begin -- */
+
+#kids-back-top {
+    left: 10px;
+	right: auto;
+}
+
+#kids-back-top span:after {
+    right: 0;
+    left: 0;
+}
+
+/* -- Back to top button --> End -- */
+/* 
+##############################################################
+STYLED ELEMENTS -> End                                        
+##############################################################
+*/
+/* --- Styles for Buttons --> Begin -- */
+
+.cws_button:after {
+    right: 0;
+    left: 0;
+}
+
+.cws_button>.button-icon {
+    margin-right: 0.5em;
+	margin-left: auto;
+}
+
+.cws_button.align-btn-right {
+    float: right;
+}
+
+.cws_button.align-btn-left {
+    float: left;
+}
+
+.rectangle-block-buttons {
+    margin-left:100px;
+	margin-right: auto;
+}
+
+.rounded-block-buttons {
+    margin-left:100px;
+	margin-right: auto;
+}
+
+.medium-block-buttons {
+    margin-left:100px;
+	margin-right: auto;
+}
+
+/* --- Styles for Buttons --> End -- */
+
+/* --- Dropcap --> Begin -- */
+
+.dropcap {
+    float: right;
+    margin: 0.1em 0 0 0.2em;
+}
+
+/* --- Styles for Buttons --> End -- */
+
+/* --- Pullquotes --> Begin -- */
+
+.pullleft,
+.pullright {
+    float: left;
+    margin-right: 1em;
+    margin: 0.5em 0.5em 0.5em 0  ;
+	margin-left: auto;
+}
+
+.pullright {
+    float: right;
+    margin-left: 1em;
+    margin: 0.5em 0 0.5em 0.5em  ;
+	margin-right: auto;
+}
+
+/* --- Pullquotes --> End -- */
+/* 
+##############################################################
+WIDGETS -> Begin                                        
+##############################################################
+*/
+
+/* ----- Widget Accordion ----- */
+
+.accordion li a.opener {
+    padding: 8px 35px 8px 10px;
+}
+
+.accordion li a.opener:before {
+    right: 11px;
+    padding: 0 5px 0 4px;
+	left: auto;
+}
+
+/* --- Highlighter --- */
+
+.highlighter .opener {
+    background:url(../images/bg-code.png) no-repeat right top;
+    padding-right:42px;
+	padding-left: 0;
+}
+
+.highlighter .opener span {
+    background:url(../images/opener-arrow.png) no-repeat right top;
+    right:10px;
+	left: auto;
+}
+
+.highlighter .slide-holder {
+    margin-right: 20px;
+    padding: 15px 15px 15px 10px;
+    background: url(../images/get-code-area.png) no-repeat right bottom #fff;
+	margin-left: auto;
+}
+
+/* ----- Widget Tabbed ----- */
+
+ul.tabs {
+    margin-right: 1px;
+    float: right;
+	margin-left: auto;
+}
+
+ul.tabs>li {
+    float: right;
+    margin-right: -1px;
+    border-left:1px solid;
+    border-right:1px solid;
+	margin-left: auto;
+}
+
+/* ----- Widget Toggle ----- */
+
+b.trigger:before {
+    left: 15px;
+	right: auto;
+}
+
+.toggle_container {
+    border-left:1px solid #fee1a6;
+    border-right:1px solid #fee1a6;
+}
+
+/** ACCORDION */
+
+.accordion_title {
+    padding: 8px 15px 8px 35px;
+}
+
+.accordion_title .accordion_icon {
+    left: 7px;
+	right: auto;
+}
+
+.accordion_title  .acc_featured_icon,
+.accordion_title .acc_featured_img {
+    margin-left: 10px;
+    margin-right: -7px;
+}
+
+.accordion_content .prettyPhoto.wp-image-popup .kids_curtain,
+.tab_item .prettyPhoto.wp-image-popup .kids_curtain {
+    right: 0;
+    left: 0;
+}
+
+/** TABS */
+
+.tabs .tab {
+    margin-left: -1px;
+	margin-right: auto;
+}
+.tabs .tab:first-child {
+    -webkit-border-radius: 0 8px 0 0;
+    -moz-border-radius: 0 8px 0 0;
+    border-radius: 0 8px 0 0;
+}
+
+.tabs .tab:last-child {
+    -webkit-border-radius: 8px 0 0;
+    -moz-border-radius: 8px 0 0;
+    border-radius: 8px 0 0;
+}
+
+.tab_items {
+    -webkit-border-radius: 8px 0 8px 8px;
+    -moz-border-radius: 8px 0 8px 8px;
+    border-radius: 8px 0 8px 8px;
+}
+
+/* ----- Widget Pagenavi ----- */
+
+#dsb .pagenavi {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pagenavi .pages {
+    margin-left: 12px;
+	margin-right: auto;
+}
+
+.pagenavi .page,
+.pagenavi .current,
+.pagenavi .prevpostslink,
+.pagenavi .nextpostslink {
+    margin-left: 1px;
+	margin-right: auto;
+}
+.pagenavi .prevpostslink:before, .pagenavi .nextpostslink:before {
+    transform: rotate(180deg);
+}
+/* callout */
+
+.callout_widget.with_icon {
+    padding-right: 5px;
+	padding-left: 0;
+}
+
+.callout_widget .icons_part {
+    float: right;
+    margin-left: 0.312em;
+	margin-right: auto;
+}
+
+.callout_widget .icons_part.img_icon {
+    padding-right: 5px;
+	padding-left: 0;
+}
+
+.callout_widget .button_part {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+/* ----- Widget Categories Type-1 -> Begin ----- */
+
+aside .widget .textwidget,
+aside .widget_cws_benefits .cws-widget-content .text_part,
+aside .widget_search>#search-form,
+aside .widget_calendar>#calendar_wrap,
+aside .woocommerce.widget_price_filter .widget-title+form,
+aside .woocommerce.widget_product_search>form,
+aside .woocommerce.widget_layered_nav_filters>ul {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+aside .widget_cws_tweets .widget_recent_comments ul.tweet_list>li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside .widget h3.widget-title {
+    -webkit-border-top-right-radius: 9px;
+    -webkit-border-top-left-radius: 9px;
+    -moz-border-radius-topright: 9px;
+    -moz-border-radius-topleft: 9px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+/* ----- Widget Categories Type-1 -> End ----- */
+
+/* ----- Widget Categories Type-2 -> Begin ----- */
+
+aside .widget.type-2 h3.widget-title {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+aside .widget.type-2 h3.widget-title:before,
+aside .widget.type-2 h3.widget-title:after {
+    right: 3px;
+	left: auto;
+}
+
+aside .widget.type-2 h3.widget-title:after {
+    right: auto;
+    left: 2px;
+}
+
+aside .widget.type-3 h3.widget-title {
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-1,
+aside .widget.type-3 h3.widget-title .cloud-element-2,
+aside .widget.type-3 h3.widget-title .cloud-element-3 {
+    right: 16px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-2 {
+    right: calc(13px + 29%);
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-3 {
+    right: calc(67% - 15px);
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-1:before {
+    right: -14%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-1:after {
+    left: -14%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	right: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-2:before {
+    right: -61%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-2:after {
+    right: 43%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-3:before {
+    right: -60%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title .cloud-element-3:after {
+    left: 0%;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+	right: auto;
+}
+
+aside .widget.type-3 h3.widget-title:before,
+aside .widget.type-3 h3.widget-title:after {
+    right: -3px;
+	left: auto;
+}
+
+aside .widget.type-3 h3.widget-title:after {
+    right: auto;
+    left: 0;
+}
+
+/* ----- Widget Categories Type-3 -> End ----- */
+
+/* ----- Widget Video ----- */
+
+.kids_video_wrapper iframe {
+    right: 0;
+	left: auto;
+}
+
+.widget_video.type-1 .kids_video_wrapper {
+    margin-right: 9px !important;
+    margin-left: 9px !important;
+}
+
+/* ----- Widget Latest Posts ----- */
+
+.latest-posts-widget .kids_image_wrapper {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.latest-posts-widget .kids_post_content h4 a {
+    text-align: right;
+}
+
+.type-1.latest-posts-widget ul {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+/* ----- Widget Recent Tweets ----- */
+
+.widget_recent_comments .tweet_list li {
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+/* ----- Widget Recent Posts ----- */
+
+.widget_recent_posts .entry,
+.widget_popular_posts .entry {
+    text-align: right !important;
+}
+
+.widget_recent_posts li {
+    background: url(../images/gallery-divider.png) repeat-x right top;
+}
+
+/* ----- Widget Popular Posts ----- */
+
+.widget_popular_posts li {
+    background: url(../images/gallery-divider.png) repeat-x right top;
+}
+
+.widget_popular_posts .entry .kids_image_wrapper {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+/* --- Media Categories --- */
+
+.media_cat li a,
+.contact-info li a,
+.contact-info li span {
+    padding-right: 35px;
+	padding-left: 0;
+}
+
+.media_cat a.audio-icon {
+    background: url(../images/icons/audio-icon.png) no-repeat right;
+}
+
+.media_cat a.image-icon {
+    background: url(../images/icons/image-icon.png) no-repeat right;
+}
+
+.media_cat a.texts-icon {
+    background: url(../images/icons/texts-icon.png) no-repeat right;
+}
+
+.media_cat a.video-posts-icon {
+    background: url(../images/icons/video-posts-icon.png) no-repeat right 5px;
+}
+
+/* --- Contact Info --- */
+
+.contact-info li span.landline_phone {
+    background: url(../images/icons/phone-icon.png) no-repeat right;
+}
+
+.contact-info li a.mailto {
+    background: url(../images/icons/mailto.png) no-repeat right;
+}
+
+.contact-info.type-1 .get-code,
+.contact-info.type-2 .get-code,
+.contact-info.type-3 .get-code {
+    background: -webkit-gradient(linear, right top, right bottom, from(#9ac9e3), to(#539ece));
+}
+
+.contact-info.type-2 .get-code,
+.contact-info.type-3 .get-code {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* User Login */
+
+.capcha-frame {
+    float: right;
+}
+
+.contact-us input[type="text"].verify {
+    float: left;
+}
+
+/* Contact Us */
+
+/* Flickr */
+
+.flickr-badge {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .flickr-badge,
+.top-panel .flickr-badge {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.flickr-badge li {
+    margin-left: 4.9%;
+	margin-right: auto;
+}
+
+.flickr-badge li:nth-child(3n+3) {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.flickr-badge img {
+    right: 0px;
+	left: auto;
+}
+
+.flickr-badge>li>a:before {
+    right: 2px;
+    left: 2px;
+}
+
+/* --- 404 Page --- */
+
+/* --- Sitemap --- */ 
+
+.map {
+    float: right;
+}
+
+.map li a {
+    padding: .5em 8px .5em 5px;
+}
+
+.map ul ul {
+    margin: .5em .5em .5em 0;
+}
+
+.map ul ul li a {
+    padding: .4em 8px .4em 5px;
+}
+
+
+/* -- Contact  --> Begin --  */
+
+/* --- Address --- */
+
+.contact-address {
+    padding-right:12px;
+	padding-left: 0;
+}
+
+/* -- Contact --> End -- */
+/* 
+##############################################################
+EXTENDED TYPOGRAPHY -> Begin                                        
+##############################################################
+*/
+/* - Dividers and Borders -> Begin ----------------------------------- */
+
+.content-wrapper.alignright {
+    float:left;
+    margin: 0 0.9em 0.5em 0;
+}
+
+.content-wrapper.alignleft {
+    float: right;
+    margin: 0 0 0.5em 0.9em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+	margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+	margin-left: auto;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.add_border:after {
+    right:0;
+	left: auto;
+}
+
+/* - Dividers and Borders -> End -------------------------------------- */
+/* - Custom Box Styles -> Begin -------------------------------------- */
+
+.message_box {
+    padding:15px 53px  15px 15px;
+}
+
+.message_box:before {
+    right: 10px;
+	left: auto;
+}
+
+.message_box.custom .box-icon {
+    right: 10px;
+	left: auto;
+}
+
+.message_box.no-icon {
+    padding-right: 15px;
+	padding-left: 0;
+}
+
+.message_box.close {
+	padding-right: 53px;
+}
+
+/* - Custom Box Styles -> End --------------------------------------- */
+
+/* - Notifications Box Styles -> Begin ------------------------------ */
+
+ .close-box {
+    left: 7px;
+	right: auto;
+}
+
+/* - Notifications Box Styles -> End -------------------------------- */
+/* soc_icon */
+
+.soc_icon.fa:after {
+    right: 0;
+    left: 0;
+}
+
+/* Progress bar */
+
+.single_bar .indicator {
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* - List Styles -> Begin ------------------------------------------- */
+
+ul.type-1 li:before {
+    padding: 0.3em 0.6em 0.4em 0.4em;
+}
+
+/* - List Styles -> End --------------------------------------------- */
+/* - Tables -> Begin ------------------------------------------ */
+
+.custom-table2 thead th {
+    border-left: 1px solid #9bc0dd;
+	border-right: none;
+}
+
+.custom-table tbody td,
+.custom-table2 tbody td {
+    border-left: 1px solid #97bddb;
+	border-right: none;
+}
+
+.custom-table2 tbody td:last-of-type {
+    border-left: 0;
+	border-right: none;
+}
+
+.custom-table tbody td.noborder,
+.custom-table2 tbody td.noborder {
+    border-left:none;
+	border-right: none;
+}
+
+/* ---- Pricing Tables ----- */
+
+/*** FOR IE 9 */
+
+.pricing_table .pricing_table_column,
+.grid-row.eq-columns .grid-col {
+    float: right\9;
+}
+
+/*** \FOR IE 9 */
+.grid-row.eq-columns .pricing_table_column + .grid-col:not(.pricing_table_column) {
+    padding-right: 2.5%;
+	padding-left: 0;
+}
+
+.grid-row.eq-columns .grid-col:not(.pricing_table_column) {
+    padding-left: 2.5%;
+	padding-right: 0;
+}
+
+.grid-row.eq-columns .grid-col + .grid-col {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.pricing_table_column.active_table_column .active-ribbon {
+    right: -3px;
+	left: auto;
+}
+
+.pricing_table_column.active_table_column .active-ribbon:before {
+    right: 0;
+	left: auto;
+}
+
+.pricing_table_column>div>*:first-child {
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-topleft: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.pricing_table_column>div>*:last-child {
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.pricing_table_column + .pricing_table_column {
+    margin-right: 2px!important;
+	margin-left: auto;
+}
+
+.pricing_table_column + .pricing_table_column.grid-col-4 {
+    margin-right: 2px!important;
+	margin-left: auto;
+}
+
+.pricing_table_column .price_container .price {
+    float: right;
+}
+
+.pricing_table_column .currency {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+.pricing_table_column .price_description {
+    margin-right: -0.1em;
+    text-align: left;
+	margin-left: auto;
+}
+
+.pricing_table_column .content_part:before {
+    left: 0;
+    right: 0;
+}
+
+.pricing_table_column .content_part ul,
+.pricing_table_column .content_part ol {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.pricing_table_column .content_part ul ul,
+.pricing_table_column .content_part ol ol,
+.pricing_table_column .content_part ul ol,
+.pricing_table_column .content_part ol ul {
+    margin-right: 16px;
+	margin-left: auto;
+}
+
+.pricing_table_column .button_part {
+    -webkit-border-bottom-left-radius: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    -moz-border-radius-bottomright: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* - Tables-> End --------------------------------------------- */
+/* Isotop column */
+
+.iso-four-column .grid,
+.iso-three-column .grid,
+.iso-two-column .grid {
+    margin-right: -30px;
+	margin-left: auto;
+}
+
+.iso-four-column .iso-item,
+.iso-three-column .iso-item,
+.iso-two-column .iso-item {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+.portfolio .post-footer {
+    text-align: left;
+}
+
+.portfolio .filter {
+    float: left;
+}
+
+.portfolio .post-item {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+body.single .portfolio .post-item>.post-entry>div>* {
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+body.single .portfolio .post-item>.post-entry>div {
+    margin-left: -15px;
+	margin-right: auto;
+}
+
+body.single .portfolio .post-item>.post-entry .content-wrapper {
+    float: right;
+}
+
+@media screen and (max-width: 1190px) {
+
+    .portfolio .post-item {
+        padding-right: 0;
+    	padding-left: 0;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div>* {
+        margin-left: 15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+}
+@media screen and (max-width: 1190px) {
+
+    .portfolio .post-item {
+        padding-right: 0;
+    	padding-left: 0;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div>* {
+        margin-left: 15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 1190px) {
+
+    .portfolio .post-item {
+        padding-right: 0;
+    	padding-left: 0;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div>* {
+        margin-left: 15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+
+    .portfolio .post-item {
+        padding-right: 0;
+    	padding-left: 0;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div>* {
+        margin-left: 15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry>div {
+        margin-left: -15px;
+    	margin-right: auto;
+    }
+
+    body.single .portfolio .post-item>.post-entry .content-wrapper {
+        float: right;
+    }
+
+}
+
+/* ----- Blog Page  --> Begin ----- */
+
+aside {
+    float: right;
+}
+
+.single-sidebar main {
+    float: right;
+}
+
+aside#sidebar-left {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+aside#sidebar-right {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+.single-sidebar aside {
+    float: right;
+}
+
+.double-sidebar main {
+    float: right;
+}
+
+.double-sidebar #sidebar-left {
+    margin-left: 30px;
+	margin-right: auto;
+}
+
+.double-sidebar #sidebar-right {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+.content-container .item-post {
+    padding: 40px 34px 20px 40px;
+}
+
+.post-item .post-meta ~* {
+    margin-right: 70px;
+	margin-left: auto;
+}
+
+body.single .post-item .post-entry>div {
+    margin-left: -0.9em;
+	margin-right: auto;
+}
+
+body.single .post-item .post-entry>div>* {
+    margin-left: 0.9em;
+	margin-right: auto;
+}
+
+#dsb .post-item {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.content-container .post-title {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+.post-item .post-thumb, .post-item .entry-thumbnail {
+    float:right;
+    margin-left:1em;
+	margin-right: auto;
+}
+
+.content-container .metadata {
+    right: -27px;
+	left: auto;
+}
+
+.content-container .metaholder {
+    right: -5px;
+    float:right;
+    padding: 0 12px 0 18px;
+	left: auto;
+}
+
+.content-container .metadata .post-date {
+    float: right;
+    background: url(../images/bg_metadata_date.png) no-repeat right;
+}
+
+.post-meta .post-date:before {
+    right: 0;
+    left: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;    
+}
+
+.post-meta .post-date:after {
+    right: 5px;
+    left: 0;
+}
+
+.post-meta .post-comments {
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;    
+}
+
+.post-footer {
+    text-align: right;
+    -webkit-border-bottom-left-radius: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    -moz-border-radius-bottomright: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.post-footer .author-info {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+.post_cats span:before,
+.post_tags span:before {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .post-footer .author-info {
+        margin-right: 30px;
+    	margin-left: auto;
+    }
+
+    .post_cats span:before,
+    .post_tags span:before {
+        padding-left: 5px;
+    	padding-right: 0;
+    }
+
+}
+
+/* ---- Comment list ---- */
+
+.content-container #respond_block {
+    margin: 0 35px 0 40px;
+}
+
+.content-container #respond_block h3:after {
+    right: 80px;
+	left: auto;
+}
+
+.entry-container .comment-list ol {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.avatar {
+    float: right;
+    margin-left: 15px;
+	margin-right: auto;
+}
+
+#respond_block .comment-reply-link,
+#respond_block .comment-edit-link {
+    float: left;
+}
+
+#respond_block .comment-edit-link {
+    margin-left: 5px;
+	margin-right: auto;
+}
+
+.entry-container .children .comment {
+    padding-right: 70px;
+	padding-left: 0;
+}
+
+.entry-container .children .comment:after {
+    right: 25px;
+	left: auto;
+}
+
+/* ---- Comment form ---- */
+
+.content-container .comment-form .row button[type="reset"] {
+    margin-left: 2.2em;
+	margin-right: auto;
+}
+
+/* ----- Blog Page  --> End ----- */
+
+#search-form .button {
+    float: left;
+}
+
+/* ----- WP Specific Fixes ----- */
+
+.kids_bottom_container>div>.wrapper {
+    margin-right: -30px;
+	margin-left: auto;
+}
+
+body.rtl .kids_bottom_container>div>.wrapper {
+    margin-right: 0;
+    margin-left: -30px;
+}
+
+.kids_bottom_container .widget {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+body.rtl .kids_bottom_container .widget {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.footer .widget-title,
+.top-panel .widget-title {
+    text-align: right;
+}
+
+.footer .widget_categories>ul>li,
+.top-panel .widget_categories>ul>li,
+.footer .widget_nav_menu ul li,
+.top-panel .widget_nav_menu ul li {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.footer .widget_categories>ul>li li,
+.top-panel .widget_categories>ul>li li {
+    padding-right: 0.714em;
+	padding-left: 0;
+}
+
+/*Widget theme skins END*/
+
+#post_comment {
+    float: left;
+}
+
+img[class*="wp-image"].noborder+.kids_curtain,
+.noborder .kids_curtain {
+    right: 0;
+    left: 0;
+}
+
+.wp-image-popup .kids_curtain {
+    right: 10px;
+    left: 10px;
+}
+
+.alignleft>img[class*="wp-image"].alignleft {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.alignright>img[class*="wp-image"].alignleft {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.hover-link .kids_curtain {
+    right: 10px;
+    left: 10px;
+}
+
+.widget .carousel_header .widget_carousel_nav,
+.cws-widget .carousel_header .widget_carousel_nav {
+    float: left;
+    margin-right: 10px;
+	margin-left: auto;
+}
+
+.widget .carousel_header .widget_carousel_nav i,
+.cws-widget .carousel_header .widget_carousel_nav i {
+    float: right;
+}
+
+.cws-widget .carousel_header>.widget-title {
+    padding-left: 70px;
+	padding-right: 0;
+}
+
+[data-carousel-column="4"]>*:not([class*="owl-"]):not(.carousel_content):not(.carousel_header) {
+    margin-right: 30px !important;
+    float: right;
+	margin-left: auto;
+}
+
+[data-carousel-column="3"]>*:not([class*="owl-"]):not(.carousel_content):not(.carousel_header) {
+    margin-right: 30px !important;
+    float: right;
+	margin-left: auto;
+}
+
+[data-carousel-column="2"]>*:not([class*="owl-"]):not(.carousel_content):not(.carousel_header) {
+    margin-right: 30px !important;
+    float: right;
+	margin-left: auto;
+}
+
+aside ul.latest_tweets li li {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+ul.latest_tweets li ul {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+ul.latest_tweets li li .icon_frame {
+    float: right;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+.top-panel ul.latest_tweets li li>div:not(.icon_frame) {
+    margin-right: 40px;
+	margin-left: auto;
+}
+
+ul.latest_tweets li li>div:not(.icon_frame) {
+    margin-right: 40px;
+	margin-left: auto;
+}
+
+ul.latest_tweets li li .icon_frame i.fa:before {
+    right: 0!important;
+    float: right;
+	left: auto;
+}
+
+.catappendspan {
+    left: 4px;
+	right: auto;
+}
+
+@media screen and (max-width: 1190px) {
+
+    ul.latest_tweets li li .icon_frame i.fa:before {
+        right: 0!important;
+        float: right;
+    	left: auto;
+    }
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+}
+@media screen and (max-width: 1190px) {
+
+    ul.latest_tweets li li .icon_frame i.fa:before {
+        right: 0!important;
+        float: right;
+    	left: auto;
+    }
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1190px) {
+
+    ul.latest_tweets li li .icon_frame i.fa:before {
+        right: 0!important;
+        float: right;
+    	left: auto;
+    }
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+
+    ul.latest_tweets li li .icon_frame i.fa:before {
+        right: 0!important;
+        float: right;
+    	left: auto;
+    }
+
+    .catappendspan {
+        left: 4px;
+    	right: auto;
+    }
+
+}
+
+
+
+
+.widget.widget_categories>.ui-widget>li {
+    padding-left: 2.14em;
+	padding-right: 0;
+}
+
+aside .latest-posts-widget ul li,
+aside .widget ul li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside .widget ul.menu li,
+aside .widget .nav_cat ul li {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+aside .widget  ul.menu > li a,
+aside .widget .nav_cat ul > li a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside .widget_recent_comments ul li.recentcomments,
+aside .widget_recent_entries ul li,
+aside .widget_archive ul li,
+aside .widget_pages ul li,
+aside .widget_recent_comments ul li,
+aside .widget_meta>ul>li,
+aside .widget.woocommerce.widget_product_categories li, 
+aside .widget.woocommerce.widget_layered_nav li {
+    padding-right: calc(2.14em + 10px);
+	padding-left: 0;
+}
+
+.widget_recent_comments ul li.recentcomments:before,
+.widget ul li:before,
+.widget.woocommerce.widget_product_categories li:before, 
+.widget.woocommerce.widget_layered_nav li:before {
+    right: 10px;
+	left: auto;
+}
+
+aside .widget_categories ul li ul li,
+aside .widget_categories ul li ul li a {
+    padding-right: 5px;
+	padding-left: 0;
+}
+
+.widget_categories ul ul {
+    margin-right: 0;
+    margin-left: -2.14em;
+}
+
+.creaws_contact	#sidebar {
+    padding-left: 85px;
+	padding-right: 0;
+}
+
+.more.link {
+    margin-right: 20px;
+	margin-left: auto;
+}
+
+.contactForm label.error {
+    left: 0;
+	right: auto;
+}
+
+.widget_calendar table th,
+.widget_calendar table td {
+    border-left: 1px solid transparent;
+	border-right: none;
+}
+
+.widget_calendar table td>a:before {
+    right: 0;
+    left: 0;
+}
+
+.footer .widget_calendar table td#today:before,
+.top-panel .widget_calendar table td#today:before {
+    right: 0;
+    left: 0;
+}
+
+/* ----- WP Specific Fixes --> END ----- */
+/* owl-carousel */
+
+.owl-controls.clickable .owl-pagination {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+.owl-controls.clickable .owl-pagination .owl-page {
+    margin-left: 3px;
+	margin-right: auto;
+}
+
+.owl-controls.clickable .owl-pagination .owl-page.active span {
+    right: 3px;
+	left: auto;
+}
+
+.owl-controls.clickable .owl-pagination .owl-page:last-child {
+    margin-left: 0;
+	margin-right: auto;
+}
+
+.owl-item {
+    float:right !important;
+    padding:0 30px 0 0 !important;
+}
+
+.owl-carousel {
+    margin-right: -30px !important;
+	margin-left: auto !important;
+}
+
+.owl-carousel .owl-buttons {
+    left:0;
+	right: auto;
+}
+
+
+.top-panel .owl-carousel .owl-buttons>div,
+.footer .owl-carousel .owl-buttons>div {
+    float:right;
+}
+
+.owl-carousel .owl-buttons>div, main .cws-widget .carousel_header .widget_carousel_nav i{
+    float: right;
+}
+
+.owl-carousel .owl-buttons>div + div {
+    margin-right: 1px;
+}
+
+.owl-carousel .owl-buttons>div>i{
+     transform: rotate(180deg);   
+}
+
+main .cws-widget .carousel_header .widget_carousel_nav {
+    float: right;
+}
+
+.top-panel .owl-carousel .owl-buttons>div>i, .footer .owl-carousel .owl-buttons>div>i{
+    transform: rotate(180deg);    
+}
+
+main .cws-widget .carousel_header .widget_carousel_nav>i {
+    margin-right: 2px;
+	margin-left: auto;
+}
+
+.owl-carousel .owl-buttons>div.owl-next>i {
+    padding-right: 0.15em;
+	padding-left: 0;
+}
+
+.top-panel .owl-carousel .owl-buttons>div.owl-next>i,
+.footer .owl-carousel .owl-buttons>div.owl-next>i {
+    padding-right: 0;
+	padding-left: 0;
+}
+
+.footer .owl-carousel .owl-buttons>div + div,
+.top-panel .owl-carousel .owl-buttons>div + div {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+@media screen and (max-width: 1190px) {
+
+    .owl-carousel .owl-buttons>div + div {
+        margin-right:1px;
+    	margin-left: auto;
+    }
+
+    .footer .owl-carousel .owl-buttons>div + div,
+    .top-panel .owl-carousel .owl-buttons>div + div {
+        margin-right: 0;
+    	margin-left: auto;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .footer .owl-carousel .owl-buttons>div + div,
+    .top-panel .owl-carousel .owl-buttons>div + div {
+        margin-right: 0;
+    	margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+
+    .owl-carousel .owl-buttons>div + div {
+        margin-right:1px;
+    	margin-left: auto;
+    }
+
+    .footer .owl-carousel .owl-buttons>div + div,
+    .top-panel .owl-carousel .owl-buttons>div + div {
+        margin-right: 0;
+    	margin-left: auto;
+    }
+
+}
+
+/* owl-carousel */
+
+.recent_projects .grid>.iso-item {
+    float: right;
+}
+
+.recent_projects .projects_carousel {
+    margin-right: -30px;
+	margin-left: auto;
+}
+
+.recent_projects .projects_carousel .iso-item {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+.recent_projects .section-title {
+    padding-left: 70px;
+	padding-right: 0;
+}
+
+@media screen and (max-width: 1190px) {
+
+    .recent_projects .section-title {
+        padding-left: 70px;
+    	padding-right: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1190px) {
+
+    .recent_projects .section-title {
+        padding-left: 70px;
+    	padding-right: 0;
+    }
+
+}
+
+/* color versions (carousel) */
+
+.kids_slider_wrapper .camera_wrap .camera_pag .camera_pag_ul li {
+    margin: 0 4px 0 0;
+}
+
+.kids_slider_wrapper .flexslider .camera_pagination {
+    right: auto !important;
+	left: auto;
+}
+
+.tparrows.default:after {
+    right: 0;
+    left: 0;
+}
+
+.tp-leftarrow.tparrows.default {
+    left: 2px !important;
+	right: auto;
+}
+
+.tp-rightarrow.tparrows.default {
+    right: 2px !important;
+	left: auto;
+}
+
+.tp-leftarrow.tparrows:before {
+    padding-right: 0.15em;
+	padding-left: 0;
+}
+
+/**************************** FORM ****************************/
+
+.wpcf7 input[type="submit"] {
+    float: left;
+}
+
+input[type="range"] {
+    margin-right:0;
+	margin-left: auto;
+}
+
+input[type="radio"]:before {
+    right:2px;
+	left: auto;
+}
+
+input[type="checkbox"]:before {
+    right:0;
+	left: auto;
+}
+
+/***************** BUTTONS *********************/
+
+/***************** BUTTONS *********************/
+div.wpcf7-response-output {
+    padding: 15px 53px 15px 15px;
+}
+
+div.wpcf7-response-output:before {
+    right: 10px;
+	left: auto;
+}
+
+/***************** /BUTTONS *********************/
+/***************** wpcf7 *********************/
+form.wpcf7-form>p>*:first-child {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+/***************** /wpcf7 *********************/
+
+/**************************** /FORM ****************************/
+
+li.empty {
+    padding-right:0 !important;
+	padding-left: 0;
+}

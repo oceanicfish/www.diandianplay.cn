@@ -1,0 +1,80 @@
+/* ==========================================================================
+   [Start] All Style Form
+========================================================================== */
+input[type='text'],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+textarea {
+    background-color: rgba(245,245,245,0.8);
+    color: #626262;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 17px;
+    height: 57px;
+    line-height: 13px;
+    border: 1px solid #ededed;
+    width: 100%;
+    @include border-radius(5px);
+}
+textarea {
+    height: 240px;
+    max-height: 240px;
+    max-width: 100%;
+}
+input[type='text']:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid $primary_color;
+}
+/** Contact Form 7 */
+.wpcf7-form {
+    .wpcf7-form-item {
+        margin-bottom: 24px;
+    }
+    textarea {
+        height: 218px;
+    }
+    input[type="submit"] {
+        margin-top: 25px;
+    }
+    .wpcf7-not-valid-tip {
+        font-size: 12px;
+        position: absolute;
+        right: 15px;
+        top: 0;
+        color: #d94e90;
+    }
+    .wpcf7-validation-errors {
+        border: medium none;
+        display: block;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+}
+/* ==========================================================================
+   [End] All Style Form
+========================================================================== */

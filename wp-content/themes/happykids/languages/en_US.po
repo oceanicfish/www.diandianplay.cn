@@ -1,0 +1,1701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-02-12 11:07+0200\n"
+"PO-Revision-Date: 2015-02-12 11:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: CWS Team <support@cwsthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /Volumes/Work/Users/JoSS/Desktop/happykids\n"
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/404.php:52
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:125
+msgid "Error"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/404.php:53
+msgid "page not found"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/404.php:59
+msgid "Unfortunately, this page is absent or unavailable"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/blog.php:149
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:11
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1042
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:491
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:139
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:189
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:149
+msgid "Comments"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/blog.php:189
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:765
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:517
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:238
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:204
+msgid "Read more"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/blog.php:191
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:146
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1053
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:520
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:178
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:241
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:190
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:206
+msgid "Category"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/blog.php:196
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:525
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:183
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:246
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:196
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:211
+msgid "Tags:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:9
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1124
+msgid "No Comments"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:10
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1141
+msgid "One Comment"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:24
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:42
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:57
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1192
+msgid "Older Comments"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:43
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:58
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1209
+msgid "Newer Comments"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:78
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1243
+msgid "Leave a comment"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:85
+msgid "Name (required)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:87
+msgid "Email Address (required)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:88
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1311
+msgid "Website URL"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/comments.php:94
+msgid "submit comment"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/customs/slider.php:6
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:366
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:367
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:498
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:499
+msgid "Categories"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/customs/slider.php:7
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:21
+msgid "Author"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/customs/slider.php:8
+msgid "Thumbnail"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:4
+msgid "Page Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:18
+msgid "Page type"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:23
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:447
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1349
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/crumbs.php:100
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:279
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:204
+msgid "Page"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:24
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:448
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1041
+msgid "Blog"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:25
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:449
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1044
+msgid "Portfolio"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:34
+msgid "Page template"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:39
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:54
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:18
+msgid "Default"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:40
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:55
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:69
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:524
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:610
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:686
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:786
+msgid "Full width"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:41
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:56
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:70
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:93
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:525
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:611
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:687
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:787
+msgid "Right sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:42
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:57
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:71
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:85
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:526
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:612
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:688
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:788
+msgid "Left sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:43
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:58
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:72
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:527
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:613
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:689
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:789
+msgid "Double sidebars"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:49
+msgid "Blog template"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:64
+msgid "Page Layout"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:101
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:405
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:538
+msgid "Image width"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:106
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:195
+msgid "Small"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:107
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:194
+msgid "Medium"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:108
+msgid "Full-width"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:114
+msgid "Blog Category"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:124
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:352
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:353
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:460
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:461
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:484
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:485
+msgid "Columns"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:129
+msgid "1 column"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:130
+msgid "2 columns"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:131
+msgid "3 columns"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:132
+msgid "4 columns"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:139
+msgid "Use filter"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:155
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:725
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:826
+msgid "Items per page"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:169
+msgid "Other options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:172
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:179
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:33
+msgid "--- Select option ---"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:180
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:285
+msgid "Show crumbs"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/page_general.php:181
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:286
+msgid "Hide crumbs"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:3
+msgid "Portfolio Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:12
+msgid "Show Read More button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:19
+msgid "Show"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:20
+msgid "Hide"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:24
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:757
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:442
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:582
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:96
+msgid "Button name"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:31
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:58
+msgid "Button URL"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:38
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:21
+msgid "disable hover effect for this item."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:44
+msgid "Custom URL (optional)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:45
+msgid "Pictures, videos etc"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/portfolio.php:52
+msgid "use direct link instead of the popup."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:3
+msgid "Post Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:13
+msgid "Video"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:18
+msgid "Embedded video block"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:27
+msgid "Blog Post Author Data"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:28
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:659
+msgid "Show or hide author name and photo."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:34
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:664
+msgid "Show Author Data"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/single.php:35
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:665
+msgid "Hide Author Data"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/slider.php:3
+msgid "Slide Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/slider.php:12
+msgid "Slide link/Gallery popup link"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/slider.php:19
+msgid ""
+"<b>Use direct link instead of the popup:</b><br>Please note: This option is "
+"available only for Galleries"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/metaboxes/slider.php:25
+msgid "Slide Caption"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:10
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:35
+msgid "General Settings"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:11
+msgid "Display Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:12
+msgid "Styling Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:13
+msgid "Layout Options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:14
+msgid "HomePage"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:15
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:862
+msgid "Fonts"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:16
+msgid "Translations"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:17
+msgid "Socials"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:18
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1878
+msgid "Help"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:44
+msgid "Logo"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:52
+msgid "Logo Dimensions"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:69
+msgid "Width (px)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:78
+msgid "Height (px)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:85
+msgid "Logo Position "
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:98
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:219
+msgid "Left"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:99
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:218
+msgid "Center"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:100
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:217
+msgid "Right"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:107
+msgid "Logo Spacing"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:156
+msgid "Favicon"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:163
+msgid "Google analytics code"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:167
+msgid "Paste your Google Analytics (or other) tracking code here."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:172
+msgid "Theme update"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:173
+msgid "Please insert your Item Purchase Code to get latest theme updates."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:204
+msgid "Menu Position"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:223
+msgid "Use merged menu items"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:233
+msgid "Menu Top Spacing"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:243
+msgid "Enable mobile menu on all touch-enabled devices"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:251
+msgid "Widget Style"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:263
+msgid "Generic"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:264
+msgid "Chamomiles"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:265
+msgid "Clouds & Chamomiles"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:272
+msgid "Breadcrumbs"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:304
+msgid "Colors"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:306
+msgid "Patterns & Graphics"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:315
+msgid "Theme color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:322
+msgid "Main color (Defaul: #8fc0ea)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:329
+msgid "Secondary color (Defaul: #fcf5d5)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:336
+msgid "Outline color (Defaul: #fee6b4)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:343
+msgid "Footer color (Defaul: #3185cb)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:351
+msgid "Menu, buttons, widget header colors"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:358
+msgid "Color (Defaul: #3185cb)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:365
+msgid "Hover color (Defaul: #ff633c)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:377
+msgid "Patterns"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:396
+msgid "Upload and use custom pattern"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:406
+msgid "Header clouds"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:416
+msgid "Footer image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:427
+msgid "Footer bottom spacing (px)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:446
+msgid "Header & Footer"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:450
+msgid "WooCommerce"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:451
+msgid "Sidebars"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:460
+msgid "Top toggle area"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:471
+msgid "Shows widgets of this sidebar in the top panel."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:478
+msgid "Footer area"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:493
+msgid "Copyrights area"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:512
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:675
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:775
+msgid "Defaul Layout"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:533
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:619
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:695
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:795
+msgid "Left Sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:549
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:636
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:710
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:810
+msgid "Right Sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:564
+msgid "Search page sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:579
+msgid "Page 404 sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:598
+msgid "Default Layout"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:651
+msgid "Author Data"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:739
+msgid "More button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:750
+msgid "Show button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:751
+msgid "Hide button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:844
+msgid "Generate a new sidebar"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:871
+msgid "Menu font"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:880
+msgid "Header font"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:889
+msgid "Text font"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:910
+msgid "Slider Settings"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:919
+msgid "Slider type:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:931
+msgid "Image Slider"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:932
+msgid "Video file"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:933
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:953
+msgid "Static image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:934
+msgid "Hide slider"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:963
+msgid "Video source"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:973
+msgid "YouTube"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:974
+msgid "Vimeo"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:979
+msgid "Video ID"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:985
+msgid "AutoPlay Video"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:993
+msgid "Slogan area"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1004
+msgid "Shows widgets of this sidebar under the slider, on the Home Page."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1011
+msgid "Benefits area"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1022
+msgid "Shows widgets of this sidebar under the slogan, on the Home Page."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1043
+msgid "Pages"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1070
+msgid "Archive"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1087
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/header.php:132
+msgid "Search"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1104
+msgid "Tags"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1158
+msgid "% Comments"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1175
+msgid "Password protected comments text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1226
+msgid "Comments are closed"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1260
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/comments.php:21
+msgid "Edit"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1277
+msgid "Name"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1294
+msgid "Email Address"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1328
+msgid "Submit comment"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1366
+msgid "Page not found"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1383
+msgid "404 Page text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1400
+msgid "Nothing found"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1419
+msgid "All (Used in Portfolio filter)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1436
+msgid "Portfolio \"Read more\" text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1453
+msgid "Portfolio singular name"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1460
+msgid "(i.e. \\\"Item\\\", used in breadcrumbs)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1482
+msgid "Socials settings"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1483
+msgid "Twitter"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1484
+msgid "Social Networks"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1515
+msgid "Username"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1529
+msgid "Consumer Key"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1543
+msgid "Consumer Secret"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1557
+msgid "Access Token"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1571
+msgid "Access Token Secret"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1589
+msgid "Social Network 1"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1597
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1642
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1689
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1736
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1783
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1830
+msgid "Title of the social network"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1604
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1649
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1696
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1743
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1790
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1837
+msgid "Paste your url here."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1626
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1672
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1720
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1767
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1813
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1860
+msgid "Hover color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1634
+msgid "Social Network 2"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1681
+msgid "Social Network 3"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1728
+msgid "Social Network 4"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1775
+msgid "Social Network 5"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/options/theme_general.php:1822
+msgid "Social Network 6"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/popup.php:35
+msgid "Insert Shortcode"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:9
+msgid "Image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:14
+msgid "Quote text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:32
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:33
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:169
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:207
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:208
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:276
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:277
+msgid "Icon"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:40
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:91
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:134
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:252
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:346
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:453
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:478
+msgid "Title"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:46
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:140
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:201
+msgid "Text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:53
+msgid "Button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:69
+msgid "Video/Audio url"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:75
+msgid "Width"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:81
+msgid "Height"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:97
+msgid "Percentage"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:98
+msgid "From 0 to 100"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:107
+msgid "Color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:118
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1393
+msgid "Type"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:119
+msgid "Info Box Type"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:122
+msgid "Question"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:123
+msgid "Warning"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:124
+msgid "Alert"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:126
+msgid "Success"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:127
+msgid "Notice"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:147
+msgid "This box is closable"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:154
+msgid "Customize box"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:162
+msgid "Box Color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:180
+msgid "Button type"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:183
+msgid "Rounded"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:184
+msgid "Square"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:190
+msgid "Button size"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:193
+msgid "Large"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:196
+msgid "Mini"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:213
+msgid "URL"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:218
+msgid "Customize button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:226
+msgid "Button Color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:233
+msgid "Icon Color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:240
+msgid "Text Color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:258
+msgid "Number of tweets"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:265
+msgid "Tweets per slide"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:283
+msgid "Size"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:284
+msgid "Icon Size"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:298
+msgid "Customize"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:308
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:328
+msgid "Text color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:316
+msgid "Background color"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:335
+msgid "Text background"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:356
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:464
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:488
+msgid "One"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:357
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:465
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:489
+msgid "Two"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:358
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:466
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:490
+msgid "Three"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:359
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:467
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:491
+msgid "Four"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:375
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:507
+msgid "Items to load"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:381
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:513
+msgid "Display as carousel"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:388
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:520
+msgid "Customize shortcode output"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:397
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:529
+msgid "Enable Lightbox"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:412
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:545
+msgid "Image height"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:419
+msgid "Hide title and description text"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:427
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:552
+msgid "Post text lenght"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:433
+msgid "Show More button"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:558
+msgid "Hide date section"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:566
+msgid "Hide footer section"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:574
+msgid "Hide meta section"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:831
+msgid "Select Image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/sc-settings.php:831
+msgid "Remove Image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:133
+msgid "Click Here"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:220
+msgid "Twitter API keys and tokens are not set."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:232
+msgid "Twitter response: "
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/admin/shortcodes/shortcodes.php:399
+msgid "Read More"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:196
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:77
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:197
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:78
+msgid "Install Plugins"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:198
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:79
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:210
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:91
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:212
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1965
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:92
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:556
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2182
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1186
+msgid "Private Repository"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1189
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1194
+msgid "WordPress Repository"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1197
+msgid "Required"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1197
+msgid "Recommended"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1200
+msgid "Not Installed"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1202
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1304
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1412
+msgid "Install"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1326
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1413
+msgid "Activate"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1375
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1391
+msgid "Plugin"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1392
+msgid "Source"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1394
+msgid "Status"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1522
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1948
+msgid "Install package not available."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1949
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1950
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1951
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1952
+msgid "Plugin install failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1953
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:1964
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2078
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2079
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2088
+msgid "Show Details"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2079
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2088
+msgid "Hide Details"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2080
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2085
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2086
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2087
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2088
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2089
+msgid "All installations have been completed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/class-tgm-plugin-activation.php:2090
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/comments.php:10
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/comments.php:17
+msgid "Reply"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/comments.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/crumbs.php:6
+msgid "Home"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/pagination.php:8
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/pagination.php:9
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:280
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:281
+msgid "..."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/pagination.php:10
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:282
+msgid "Prev"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/pagination.php:11
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:283
+msgid "Next"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:120
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:235
+msgid "Image rotate failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:257
+msgid "Image opacity change failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:335
+msgid "Image color change failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:351
+msgid "Image grayscale failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/functions/resizer.php:367
+msgid "Image negate failed."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:70
+msgid "Message"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:159
+msgid "--- Select Sidebar ---"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:182
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:341
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:366
+msgid "--No Categories--"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:187
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:346
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:371
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/portfolio.php:146
+msgid "All"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:503
+msgid "--- Select font ---"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:528
+msgid "--- Subset ---"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:538
+msgid "Font Size (px)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:542
+msgid "Line height (em)"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/elements_gen.php:548
+msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/option_gen.php:178
+msgid "Theme Maintenance"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/option_gen.php:180
+msgid "Demo Import"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/generators/option_gen.php:181
+msgid "Reset to defaults"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:80
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/plugins.php:93
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:8
+msgid "Modified CWS Text widget"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:10
+msgid "CWS Benefits"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:64
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:95
+msgid "More"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:75
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/twitter.php:47
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:66
+msgid "Title:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:80
+msgid "Show icon options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:93
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/benefits.php:99
+msgid "Read more URL"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/flickr.php:66
+msgid "Title: "
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/flickr.php:68
+msgid "Flickr Username:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/flickr.php:70
+msgid "# of images to Show:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/latest_posts_w_thumbnails.php:9
+msgid " - Latest Posts with thumbnails"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/latest_posts_w_thumbnails.php:86
+msgid "Category:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/latest_posts_w_thumbnails.php:88
+msgid "All Categories"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/latest_posts_w_thumbnails.php:109
+msgid "Show post date"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/nav.php:9
+msgid " - Navigation"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/nav.php:87
+msgid "Create menu in admin panel -> appearance -> menus"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/nav.php:89
+msgid "Select menu:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/twitter.php:9
+msgid " - Twitter"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/twitter.php:50
+msgid "Tweets to show:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/twitter.php:53
+msgid "Tweets per slide:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:8
+msgid " - Video"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:67
+msgid "Video source:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:77
+msgid "Source ID:"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:78
+msgid "Width(px):"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/core/widgets/video.php:79
+msgid "Height(px):"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/functions.php:75
+msgid "Please insert your Item Purchase Code to get the latest theme updates!"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/functions.php:310
+msgid "Pick an icon for this widget"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/functions.php:318
+msgid "Click here to select image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/functions.php:319
+msgid "Remove this image"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/functions.php:326
+msgid "Reset icon options"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:112
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:164
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:124
+msgid "View all posts in"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:122
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:173
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/single.php:134
+msgid "Tag"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/index.php:170
+msgid "Read more..."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:85
+msgid "Search Results for: "
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/search.php:268
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/loop/result-count.php:32
+msgid "Showing the single result"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/loop/result-count.php:34
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:91
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:190
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:148
+msgid "Error 404"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:194
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: /Volumes/Work/Users/JoSS/Desktop/happykids/woocommerce/shop/breadcrumb.php:199
+msgid "Author:"
+msgstr ""
